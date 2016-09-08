@@ -4,7 +4,11 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 import cn.com.aizhiSoft.web.framework.config.AppContextConfig;
 import cn.com.aizhiSoft.web.framework.config.WebConfig;
-
+/**
+ * This is class has the same purpose with the traditional web.xml.
+ * It configure the DispatchServlet internally.
+ * The servlet mapping and context object for application context and servlet context should be provided.
+ * */
 public class ServletConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override
