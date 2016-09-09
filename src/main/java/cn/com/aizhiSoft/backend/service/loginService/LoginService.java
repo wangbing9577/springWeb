@@ -4,4 +4,5 @@ import cn.com.aizhiSoft.domain.UserInfo;
 
 public interface LoginService {
 	int login(UserInfo userInfo);
+	int resisterUser(UserInfo userInfo);
 }
